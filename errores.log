@@ -31,3 +31,90 @@
 [2026/11/08 14:05][HiloProceso]Codigo de salida0
 [2026/11/08 14:05][HiloProceso]=== Lanzado: [ping, -n, 5, localhost]
 [2026/11/08 14:05][HiloProceso]Codigo de salida0
+[2026/11/08 17:18][HiloProceso]=== Lanzado: [ping, -n, 30, localhost]
+[2026/11/08 17:18][HiloProceso]Proceso cancelado...
+[2026/11/08 17:47][pool-1-thread-3]=== Lanzado: [ipconfig]
+[2026/11/08 17:47][pool-1-thread-2]=== Lanzado: [ping, -n, 2, 127.0.0.1]
+[2026/11/08 17:47][pool-1-thread-1]=== Lanzado: [ping, -n, 4, localhost]
+[2026/11/08 17:47][pool-1-thread-4]=== Lanzado: [cmd, /c, dir]
+[2026/11/08 17:47][pool-1-thread-4]Codigo de salida: 0
+[2026/11/08 17:47][pool-1-thread-4]=== Lanzado: [cmd, /c, dir, carpetaQueNoExiste]
+[2026/11/08 17:47][pool-1-thread-3]Codigo de salida: 0
+[2026/11/08 17:47][pool-1-thread-3]=== Lanzado: [ping, -n, 3, localhost]
+File Not Found
+[2026/11/08 17:47][pool-1-thread-4]Codigo de salida: 1
+[2026/11/08 17:47][pool-1-thread-4]=== Lanzado: [programaInventado]
+[2026/11/08 17:47][pool-1-thread-4]Cannot run program "programaInventado": CreateProcess error=2, The system cannot find the file specified
+[2026/11/08 17:47][pool-1-thread-4]=== Lanzado: [ping, -n, 5, localhost]
+[2026/11/08 17:47][pool-1-thread-2]Codigo de salida: 0
+[2026/11/08 17:47][pool-1-thread-3]Codigo de salida: 0
+[2026/11/08 17:47][pool-1-thread-1]Codigo de salida: 0
+[2026/11/08 17:47][pool-1-thread-4]Codigo de salida: 0
+[2026/11/08 17:47][pool-2-thread-1]=== Lanzado: [ping, -n, 4, localhost]
+[2026/11/08 17:47][pool-2-thread-1]Codigo de salida: 0
+[2026/11/08 17:47][pool-2-thread-1]=== Lanzado: [ping, -n, 2, 127.0.0.1]
+[2026/11/08 17:47][pool-2-thread-1]Codigo de salida: 0
+[2026/11/08 17:47][pool-2-thread-1]=== Lanzado: [ipconfig]
+[2026/11/08 17:47][pool-2-thread-1]Codigo de salida: 0
+[2026/11/08 17:47][pool-2-thread-1]=== Lanzado: [cmd, /c, dir]
+[2026/11/08 17:47][pool-2-thread-1]Codigo de salida: 0
+[2026/11/08 17:47][pool-2-thread-1]=== Lanzado: [cmd, /c, dir, carpetaQueNoExiste]
+File Not Found
+[2026/11/08 17:47][pool-2-thread-1]Codigo de salida: 1
+[2026/11/08 17:47][pool-2-thread-1]=== Lanzado: [ping, -n, 3, localhost]
+[2026/11/08 17:47][pool-2-thread-1]Codigo de salida: 0
+[2026/11/08 17:47][pool-2-thread-1]=== Lanzado: [programaInventado]
+[2026/11/08 17:47][pool-2-thread-1]Cannot run program "programaInventado": CreateProcess error=2, The system cannot find the file specified
+[2026/11/08 17:47][pool-2-thread-1]=== Lanzado: [ping, -n, 5, localhost]
+[2026/11/08 17:47][pool-2-thread-1]Codigo de salida: 0
+[2026/11/08 17:59][pool-1-thread-2]=== Lanzado: [ping, -n, 2, 127.0.0.1]
+[2026/11/08 17:59][pool-1-thread-4]=== Lanzado: [cmd, /c, dir]
+[2026/11/08 17:59][pool-1-thread-4]Codigo de salida: 0
+[2026/11/08 17:59][pool-1-thread-3]=== Lanzado: [ipconfig]
+[2026/11/08 17:59][pool-1-thread-3]Codigo de salida: 0
+[2026/11/08 17:59][pool-1-thread-1]=== Lanzado: [ping, -n, 4, localhost]
+[2026/11/08 17:59][pool-1-thread-2]Codigo de salida: 0
+[2026/11/08 17:59][pool-1-thread-4]=== Lanzado: [cmd, /c, dir, carpetaQueNoExiste]
+File Not Found
+[2026/11/08 17:59][pool-1-thread-4]Codigo de salida: 1
+[2026/11/08 17:59][pool-1-thread-3]=== Lanzado: [ping, -n, 3, localhost]
+[2026/11/08 17:59][pool-1-thread-1]Codigo de salida: 0
+[2026/11/08 17:59][pool-1-thread-3]Codigo de salida: 0
+[2026/11/08 17:59][pool-1-thread-2]=== Lanzado: [programaInventado]
+[2026/11/08 17:59][pool-1-thread-4]=== Lanzado: [ping, -n, 5, localhost]
+[2026/11/08 17:59][pool-1-thread-2]Cannot run program "programaInventado": CreateProcess error=2, The system cannot find the file specified
+[2026/11/08 17:59][pool-1-thread-4]Codigo de salida: 0
+[2026/11/08 18:00][pool-2-thread-1]=== Lanzado: [ping, -n, 4, localhost]
+[2026/11/08 18:00][pool-2-thread-4]=== Lanzado: [cmd, /c, dir]
+[2026/11/08 18:00][pool-2-thread-4]Codigo de salida: 0
+[2026/11/08 18:00][pool-2-thread-3]=== Lanzado: [ipconfig]
+[2026/11/08 18:00][pool-2-thread-3]Codigo de salida: 0
+[2026/11/08 18:00][pool-2-thread-2]=== Lanzado: [ping, -n, 2, 127.0.0.1]
+[2026/11/08 18:00][pool-2-thread-2]Codigo de salida: 0
+[2026/11/08 18:00][pool-2-thread-4]=== Lanzado: [cmd, /c, dir, carpetaQueNoExiste]
+File Not Found
+[2026/11/08 18:00][pool-2-thread-4]Codigo de salida: 1
+[2026/11/08 18:00][pool-2-thread-3]=== Lanzado: [ping, -n, 3, localhost]
+[2026/11/08 18:00][pool-2-thread-1]Codigo de salida: 0
+[2026/11/08 18:00][pool-2-thread-2]=== Lanzado: [programaInventado]
+[2026/11/08 18:00][pool-2-thread-2]Cannot run program "programaInventado": CreateProcess error=2, The system cannot find the file specified
+[2026/11/08 18:00][pool-2-thread-4]=== Lanzado: [ping, -n, 5, localhost]
+[2026/11/08 18:00][pool-2-thread-3]Codigo de salida: 0
+[2026/11/08 18:01][pool-2-thread-4]Codigo de salida: 0
+[2026/11/08 18:11][pool-1-thread-3]=== Lanzado: [ipconfig]
+[2026/11/08 18:11][pool-1-thread-1]=== Lanzado: [ping, -n, 4, localhost]
+[2026/11/08 18:11][pool-1-thread-3]Codigo de salida: 0
+[2026/11/08 18:11][pool-1-thread-2]=== Lanzado: [ping, -n, 2, 127.0.0.1]
+[2026/11/08 18:11][pool-1-thread-2]Codigo de salida: 0
+[2026/11/08 18:11][pool-1-thread-4]=== Lanzado: [cmd, /c, dir]
+[2026/11/08 18:11][pool-1-thread-4]Codigo de salida: 0
+[2026/11/08 18:11][pool-1-thread-3]=== Lanzado: [cmd, /c, dir, carpetaQueNoExiste]
+File Not Found
+[2026/11/08 18:11][pool-1-thread-3]Codigo de salida: 1
+[2026/11/08 18:11][pool-1-thread-2]=== Lanzado: [ping, -n, 3, localhost]
+[2026/11/08 18:11][pool-1-thread-1]Codigo de salida: 0
+[2026/11/08 18:11][pool-1-thread-4]=== Lanzado: [programaInventado]
+[2026/11/08 18:11][pool-1-thread-4]Cannot run program "programaInventado": CreateProcess error=2, The system cannot find the file specified
+[2026/11/08 18:11][pool-1-thread-3]=== Lanzado: [ping, -n, 5, localhost]
+[2026/11/08 18:11][pool-1-thread-2]Codigo de salida: 0
+[2026/11/08 18:11][pool-1-thread-3]Codigo de salida: 0

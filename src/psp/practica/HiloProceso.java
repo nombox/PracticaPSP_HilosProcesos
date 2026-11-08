@@ -25,8 +25,22 @@ public class HiloProceso implements Runnable {
 
     @Override
     public void run() {
-        
+        /*
+        try {
+            ResultadoProceso resultado = GestorProcesos.ejecutar(comando, argumentos, fichero);
+            ventana.anadirSalida(resultado.salida());
+            ventana.mostrarFin("Código de salida: " + resultado.codigoSalida());
 
+        } catch (IOException ex) {
+            ventana.mostrarFin("Error: " + ex.getMessage());
+
+        } catch (InterruptedException ex) {
+            ventana.mostrarFin("Error: " + ex.getMessage());
+
+        }
+        */
+        
+        //Version 2
         //CREACIÓN DEL PROCESSBUILDER
         List<String> comandoArgumentos = new ArrayList<>();
         StringBuilder contenidoStdout = new StringBuilder();
@@ -45,10 +59,12 @@ public class HiloProceso implements Runnable {
         }
 
         Log.registrar("=== Lanzado: " + comandoArgumentos);
+        
+        Process proceso = null;
 
         try {
 
-            Process proceso = pb.start();
+            proceso = pb.start();
 
             proceso.getOutputStream().close();
             
@@ -83,7 +99,14 @@ public class HiloProceso implements Runnable {
             ventana.mostrarFin("Error: "+e.getMessage());
             
         } catch (InterruptedException ex) {
-            ventana.mostrarFin("Error: "+ex.getMessage());
+            if(proceso != null){
+            proceso.descendants().forEach(ProcessHandle::destroy);
+            proceso.destroy();
+            }
+            
+            Log.registrar("Proceso cancelado...");
+            ventana.mostrarFin("CANCELADO");
+            
         }
 
     }
