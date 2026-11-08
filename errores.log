@@ -1,2 +1,33 @@
 [2026/10/28 17:57][main]Prueba[2026/11/03 17:59][AWT-EventQueue-0]=== Lanzado: [cmd, /c, dir]
 [2026/11/03 17:59][AWT-EventQueue-0]0
+[2026/11/08 12:44][AWT-EventQueue-0]=== Lanzado: [ping, -n, 10, localhost]
+[2026/11/08 12:45][AWT-EventQueue-0]Codigo de salida: 0
+[2026/11/08 12:45][AWT-EventQueue-0]=== Lanzado: [ping, -n, 5, localhost]
+[2026/11/08 12:45][AWT-EventQueue-0]Codigo de salida: 0
+[2026/11/08 12:45][HiloProceso]=== Lanzado: [ping, -n, 5, localhost]
+[2026/11/08 12:45][HiloProceso]Codigo de salida: 0
+[2026/11/08 12:45][HiloProceso]=== Lanzado: [ping, -n, 10, localhost]
+[2026/11/08 12:45][HiloProceso]Codigo de salida: 0
+[2026/11/08 13:44][HiloProceso]=== Lanzado: [cmd, /c, dir, cambumbo]
+[2026/11/08 13:44][LectorErrores]File Not Found[stderr]
+[2026/11/08 13:44][HiloProceso]Codigo de salida1
+[2026/11/08 13:46][HiloProceso]=== Lanzado: [ping, -n, 5, localhost]
+[2026/11/08 13:46][HiloProceso]Codigo de salida0
+[2026/11/08 13:47][HiloProceso]=== Lanzado: [ping, -n, 5, localhost]
+[2026/11/08 13:47][HiloProceso]Codigo de salida0
+[2026/11/08 13:54][HiloProceso]=== Lanzado: [ping, -n, 5, localhost]
+[2026/11/08 13:54][HiloProceso]Codigo de salida0
+[2026/11/08 13:56][HiloProceso]=== Lanzado: [ping, -n, 5, localhost]
+[2026/11/08 13:56][HiloProceso]Codigo de salida0
+[2026/11/08 14:00][HiloProceso]=== Lanzado: [ping, -n, 5, localhost]
+[2026/11/08 14:00][HiloProceso]Codigo de salida0
+[2026/11/08 14:00][AWT-EventQueue-0]=== Lanzado: [ping, -n, 5, localhost]
+[2026/11/08 14:00][AWT-EventQueue-0]Codigo de salida: 0
+[2026/11/08 14:02][HiloProceso]=== Lanzado: [ping, -n, 5, localhost]
+[2026/11/08 14:02][HiloProceso]Codigo de salida0
+[2026/11/08 14:02][HiloProceso]=== Lanzado: [ping, -n, 5, localhost]
+[2026/11/08 14:02][HiloProceso]Codigo de salida0
+[2026/11/08 14:05][HiloProceso]=== Lanzado: [ping, -n, 5, localhost]
+[2026/11/08 14:05][HiloProceso]Codigo de salida0
+[2026/11/08 14:05][HiloProceso]=== Lanzado: [ping, -n, 5, localhost]
+[2026/11/08 14:05][HiloProceso]Codigo de salida0
